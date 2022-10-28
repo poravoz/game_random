@@ -1,0 +1,116 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    font-size: 24px;
+    background-color: #222;
+    padding: 45px;
+    border-radius: 10%;
+    color: azure;
+}
+
+.button_generate {
+    font-size: 24px;
+    padding: 10px 45px;
+    border: none;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+
+.button_generate:hover {
+    opacity: 0.85;
+}
+
+.name_and_score {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: darkgray;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.div_player_score {
+    margin-left: 10px;
+    min-width: 100px;
+    
+}
+.choose_name {
+    margin-right: 5px;
+}
+
+
+.computer_and_score {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: darkgray;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    
+}
+
+.div_computer {
+    margin-right: 5px;
+}
+
+.div_computer_score {
+    margin-left: 10px;
+    min-width: 100px;
+   
+}
+
+.round_and_score {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: darkgray;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.round {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div_round {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+}
+
+.div_draw {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.who_has_won {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+
+}
+
+.button_reload {
+    font-size: 24px;
+    padding: 10px 45px;
+    border: none;
+    justify-content: center;
+    margin-left: 45px;
+}
