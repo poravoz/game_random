@@ -1,1 +1,1 @@
-# card_game
+# game_random
